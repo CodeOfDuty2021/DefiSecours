@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Kodinger">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>My Login Page &mdash; Bootstrap 4 Login Page Snippet</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/my-login.css">
+</head>
+<body class="my-login-page">
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center h-100">
+				<div class="card-wrapper">
+
+
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title">Témoignage</h4>
+							<form method="POST" class="my-login-validation" novalidate="">
+								<div class="form-group">
+									<label for="name">Date</label>
+									<input id="name" type="date" class="form-control" name="name" required autofocus>
+									<div class="invalid-feedback">
+										
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="lieu">Lieu</label>
+									<input id="lieu" type="text" class="form-control" name="email" required>
+									<div class="invalid-feedback">
+										Lieu Invalide
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="bateau">Nom du Bateau </label>
+									<input id="text" type="text" class="form-control" name="bateau" required data-eye>
+									<div class="invalid-feedback">
+										Nom du bateau obligatoire
+									</div>
+								</div>
+                                <div class="form-group">
+									<label for="sauve">Nombre Sauvé </label>
+									<input id="sauve" type="number" class="form-control" name="sauve" required data-eye>
+									
+								</div>
+                                <div class="form-group">
+									<label for="password">Nombre Sauvteurs </label>
+									<input id="sauvteur" type="number" class="form-control" name="password" required data-eye>
+									
+								</div>
+
+								<div class="form-group m-0">
+									<button type="submit" class="btn btn-primary btn-block">
+										Ajouter Témoignage
+									</button>
+								</div>
+							
+							</form>
+						</div>
+					</div>
+					<div class="footer" style="text-align: center; font-size: 12px;">
+						Copyright &copy; 2021 &mdash; Code Of Duty
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html> 
